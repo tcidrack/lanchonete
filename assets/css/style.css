@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* Menu */
+
+.conteudo {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1f1f;
+    position: fixed;
+    padding-left: 30rem;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3 {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.logo img {
+    width: 90%;
+    height: 90%;
+}
+
+.conteudo .lista-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo .lista-menu li a {
+    padding: 3rem 1rem 2rem 1rem;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.conteudo .lista-menu li a:hover {
+    background-color: #333;
+    border-bottom: 4px solid #f0d400;
+    color: #f0d400;
+}
+
+/* primeira-sacao */
+
+.primeira-secao {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8) ), url(background.avif);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira-secao .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeira-secao h1 {
+    color: #f0d400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.primeira-secao h2 {
+    color: #ccc;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.botao button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #f0d400;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 200ms ease-in;
+}
+
+.botao button:hover {
+    border: 1px solid #f0d400;
+    background-color: transparent;
+    color: #f0d400;
+}
+
+.botao {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
