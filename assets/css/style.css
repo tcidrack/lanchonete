@@ -25,7 +25,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f1f1f;
+    background-color: #1f1e1f;
     position: fixed;
     padding-left: 30rem;
 }
@@ -113,6 +113,7 @@ html {
     font-weight: 700;
     margin-top: 5rem;
     transition: all 200ms ease-in;
+    font-size: 1.6rem;
 }
 
 .botao button:hover {
@@ -125,4 +126,46 @@ html {
     width: 480px;
     display: flex;
     justify-content: space-between;
+}
+
+/* sobre-nos */
+
+.sobre-nos {
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin: 10rem 0 0 10rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.conteudo-sobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo-sobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
 }
