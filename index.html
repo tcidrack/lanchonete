@@ -10,27 +10,26 @@
     <title>Cidrack Lanches</title>
 </head>
 <body>
-    <header class="conteudo">
+    <div class="conteudo">
         <div class="logo">
             <img src="assets/img/logo.svg" alt="Logo">
             <h3>Cidrack Lanches</h3>
         </div>
-        <nav>
             <ul class="lista-menu">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#">Sobre nós</a>
+                    <a href="#sobre-nos">Sobre nós</a>
                 </li>
                 <li>
-                    <a href="#">Cárdapio</a>
+                    <a href="#cardapio">Cárdapio</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contatos">Contato</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="https://instagram.com/cidrackzz?igshid=Mzc0YWU1OWY="><i class="bi bi-instagram"></i></a>
                 </li>
                 <li>
                     <a href="#"><i class="bi bi-facebook"></i></a>
@@ -42,10 +41,14 @@
                     <a href="#"><i class="bi bi-cart2"></i></a>
                 </li>
             </ul>
-        </nav>
-    </header>
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+    </div>
 
-    <section class="primeira-secao">
+    <section class="primeira-secao" id="home">
         <div class="conteudo-principal">
             <h1>Deixe seu dia mais saboroso!!!</h1>
             <h2>Os melhores lanches da região</h2>
@@ -56,7 +59,7 @@
         </div>
     </section>
 
-    <section class="sobre-nos">
+    <section class="sobre-nos" id="sobre-nos">
         <div class="sobre-principal">
             <div class="conteudo-sobre">
                 <h2>Sobre nós</h2>
@@ -71,7 +74,7 @@
         </div>
     </section>
 
-    <section class="cardapio">
+    <section class="cardapio" id="cardapio">
         <h2>Cardápio</h2>
 
         <div class="itens-cardapio">
@@ -85,7 +88,7 @@
                 </div>
             </div>
             <div class="x-bacon">
-                <img src="assets/img/x-bacon.png" alt="x bacon">
+                <img src="assets/img/xbacon.png" alt="x bacon">
                 <div class="info">
                     <h3>X-Bacon</h3>
                     <h4>Pão bola <span>R$8,00</span></h4>
@@ -109,11 +112,11 @@
                     <button class="pedir">pedir agora</button>
                 </div>
             </div>
-            <div class="pao-arabe">
-                <img src="assets/img/pao-arabe.png" alt="pão árabe">
+            <div class="acai-copo">
+                <img src="assets/img/acai-copo.png" alt="acai no copo">
                 <div class="info">
-                    <h3>Pão Árabe</h3>
-                    <h4>Hámburguer pão árabe <span>R$7,00</span></h4>
+                    <h3>Copo de Açaí</h3>
+                    <h4>Copo de açaí <span>R$ por peso</span></h4>
                     <button class="pedir">pedir agora</button>
                 </div>
             </div>
@@ -121,7 +124,7 @@
                 <img src="assets/img/acai.png" alt="açaí">
                 <div class="info">
                     <h3>Açaí</h3>
-                    <h4>Promoção 1kg <span>R$35,00</span></h4>
+                    <h4>Promoção 1kg <span>R$37,99</span></h4>
                     <button class="pedir">pedir agora</button>
                 </div>
             </div>
@@ -129,11 +132,41 @@
                 <img src="assets/img/sorvete-casquinha.png" alt="sorvete casquinha">
                 <div class="info">
                     <h3>Sorvete Casquinha</h3>
-                    <h4>Sorvete casquinha misto/chocolate/baunilha <span>R$2,00</span></h4>
+                    <h4>Sorvete casca <span>R$2,00</span></h4>
+                    <button class="pedir">pedir agora</button>
+                </div>
+            </div>
+            <div class="milkshake">
+                <img src="assets/img/milkshake.png" alt="milkshake">
+                <div class="info">
+                    <h3>Milkshake</h3>
+                    <h4>Milkshake <span>R$8,99</span></h4>
                     <button class="pedir">pedir agora</button>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="contatos" id="contatos">
+        <h3>Contatos</h3>
+        <div class="contatos-secao">
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>(85) 98888-7777</span>
+            </div>
+            <div>
+                <i class="fab fa-instagram"></i>
+                <span>@cidrackzz</span>
+            </div>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <span>Thalison Cidrack</span>
+            </div>
+    </section>
+    <footer>
+        <h4>Desenvolvido por -> Thalison Cidrack</h4>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
