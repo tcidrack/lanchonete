@@ -206,6 +206,12 @@ html {
     height: 600px;
 }
 
+.itens-cardapio .info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .itens-cardapio .info .pedir {
     width: 200px;
     height: 35px;
@@ -221,7 +227,7 @@ html {
 }
 
 .itens-cardapio .info .pedir:hover {
-    background-color: #b62eff;
+    background-color: #01ba88;
     color: #000;
 }
 
